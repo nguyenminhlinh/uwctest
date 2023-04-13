@@ -1,0 +1,46 @@
+.overviewinfo > img{
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 100%;
+}
+
+.frameinfor{
+    width: 90%;
+    margin: 10px auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(234, 234, 234);
+    padding: 20px 0;
+}
+.frameinfor>button{
+    width: 80%;
+    margin: 5px 0;
+}
+.detail_email{
+    padding: 30px;
+    background-color: rgb(234, 234, 234);
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.detail_canhan{
+    padding: 30px;
+    background-color: rgb(234, 234, 234);
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.form-group{
+    margin: 20px;
+}
+.button_update{
+    text-align: center;
+}
+.button_update>button{
+    width: 30%;
+    margin: auto;
+}
+.row_inforpage{
+    height: fit-content;
+}

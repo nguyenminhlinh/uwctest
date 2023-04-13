@@ -1,0 +1,148 @@
+.messenger__container {
+    display: flex;
+    /* height: 100vh; */
+}
+
+.messenger__sidebar {
+    width: 25%;
+    display: flex;
+    background-color: #fff;
+    left: 0;
+    /* height: 100vh; */
+    border-right: 1px solid #f7f7f7;
+}
+
+.messenger__sidebar-ctn {
+    height: 100%;
+    width: 100%;
+}
+
+.msg__sb__header {
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: sticky;
+    background-color: #fff;
+    height: 10vh;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.msg__sb__body {
+    height: 78vh;
+    padding: 1rem;
+    overflow: auto;
+    display: block;
+    left: 0;
+    position: static;
+}
+
+.msg_header_name {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+}
+
+.msg__sb__body_ctn {
+    width: 100%;
+}
+
+.content-chat {
+    width: 75%;
+    /* height: 100%; */
+}
+
+.msg__sb__footer {
+    display: flex;
+    bottom: 0;
+    position: sticky;
+    width: 100%;
+    height: 80px;
+}
+
+.msg__sb__fctn {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #f7f7f7;
+    position: relative;
+    background-color: #fff;
+}
+
+.content__hd {
+    background-color: #f7f7f7;
+    /* height: 10vh; */
+    width: 100%;
+    top: 0;
+    position: sticky;
+}
+
+.msg__sb_f_img {
+    padding: 0.7rem;
+    border-radius: 2.5rem;
+    margin-left: 10px;
+}
+
+.msg__sb__f_dec {
+    display: flex;
+    width: 100%;
+}
+
+.msg__sb__f_dec_ctn {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* padding: 10px; */
+}
+
+.fw__b {
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.content__body {
+    height: 70vh;
+    /* width: 100%; */
+    background-color: white;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.content__input {
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 80px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.content__input_ctn {
+    width: 90%;
+    margin-left: 6vh;
+}
+
+.btn-send {
+    margin-left: 2vh;
+    width: 10vh;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: large;
+}
+
+.btn-send:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.ct__body__show_msg {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.content__ft{
+    height: 70px;
+}

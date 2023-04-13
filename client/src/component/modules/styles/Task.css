@@ -1,0 +1,521 @@
+.content {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.map {
+    padding: 20px;
+    position: relative;
+    display: block;
+    background-color: white;
+}
+
+.map__api {
+    width: 100%;
+
+}
+
+.map__api-img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.MCP {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 35px;
+}
+
+.nodeF1 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    top: 34px;
+    left: 140px;
+    height: 81px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node12 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    top: 55px;
+    left: 350px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node13 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    top: 102px;
+    left: 300px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node23 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    top: 111px;
+    left: 360px;
+    height: 73px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node34 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    top: 178px;
+    left: 465px;
+    height: 78px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node24 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    top: 131px;
+    left: 505px;
+    height: 65px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node35 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 91px;
+    position: absolute;
+    top: 206px;
+    left: 234px;
+    height: 40px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node47 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    top: 189px;
+    left: 684px;
+    height: 89px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node78 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 59px;
+    position: absolute;
+    top: 274px;
+    left: 794px;
+    height: 35px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node78 {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 59px;
+    position: absolute;
+    top: 274px;
+    left: 794px;
+    height: 35px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node5F {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 73px;
+    position: absolute;
+    top: 335px;
+    left: 592PX;
+    height: 35px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+.node8F {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    top: 400px;
+    left: 592PX;
+    height: 84px;
+    z-index: 2;
+    /*background-color: #2f3333*/
+    ;
+}
+
+#MCP1 {
+    position: absolute;
+    top: 63px;
+    left: 300px;
+    z-index: 1;
+}
+
+#MCP7 {
+    position: absolute;
+    top: 63px;
+    left: 200px;
+    z-index: 1;
+}
+
+#MCP2 {
+    position: absolute;
+    top: 73px;
+    left: 400px;
+    z-index: 1;
+}
+
+#MCP3 {
+    position: absolute;
+    top: 163px;
+    left: 300px;
+    z-index: 1;
+
+}
+
+#MCP4 {
+    position: absolute;
+    top: 263px;
+    left: 600px;
+    z-index: 1;
+
+}
+
+#MCP5 {
+    position: absolute;
+    top: 413px;
+    left: 200px;
+    z-index: 1;
+
+}
+
+#MCP7 {
+    position: absolute;
+    top: 163px;
+    left: 800px;
+    z-index: 1;
+
+}
+
+#MCP8 {
+    position: absolute;
+    top: 403px;
+    left: 780px;
+    z-index: 1;
+
+}
+
+#FACTORY {
+    position: absolute;
+    top: 26px;
+    left: 15px;
+    z-index: 1;
+
+}
+
+#ALO {
+    position: absolute;
+    top: 413px;
+    left: 400px;
+    z-index: 1;
+
+
+}
+
+.popup__collector {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    border: white 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    color: #3f4546;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+}
+
+.popup__collector-header {}
+
+.header__heading {
+    text-align: center;
+    margin: 10px 0;
+    color: #2f3333;
+}
+
+.popup__collector {
+    z-index: 3;
+}
+
+.popup__collector-content {
+    border-top: 1px white solid;
+    border-color: rgb(88, 86, 86);
+    display: flex;
+    height: calc(100% - 50px - 58px);
+}
+
+.select__group {
+    width: 55%;
+    border-right: 1px solid white;
+    border-color: rgb(88, 86, 86);
+}
+
+.select__group-search {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.select__group-search_input {
+    border-radius: 15px;
+    height: 24px;
+    padding-left: 10px;
+    max-width: 180px;
+
+}
+
+.search-icon {
+    margin: 0 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.select__group-table {
+    list-style: none;
+    color: #2f3333;
+    padding: 0;
+    margin-left: 10px;
+
+}
+
+.select__group-table_item {
+    margin: 10px 0;
+}
+
+.table_item-label {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.select__vehicleShift {
+    width: 45%;
+}
+
+.select__vehicle {
+    margin: 10px 0 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select__vehicle-label {
+    color: #2f3333;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.select__vehicle-table {
+    margin: 10px 10px 10px 0;
+    min-height: 25px;
+}
+
+.select__shift {
+    margin: 10px 0 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select__shift-label {
+    color: #2f3333;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.select__shift-table {
+    margin: 10px 10px 10px 0;
+    min-height: 25px;
+}
+
+.popup__collector-footer {
+    border-top: 1px white solid;
+    border-color: rgb(88, 86, 86);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+
+.BTN {
+    height: 35px;
+    margin: 0 10px;
+    min-width: 50px;
+    max-width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-clear {
+    font-weight: 600;
+    border: none;
+    background-color: tomato;
+}
+
+.footer-submit {
+    background-color: #0d6efd;
+    border: none;
+    font-weight: 600;
+}
+
+.BTN:hover {
+    filter: brightness(90%);
+}
+
+
+
+
+
+
+
+
+.popup__collector-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+/* LINE */
+.line {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.dashboard__product {
+    min-height: 200px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 1px rgb(0 0 0 / 10%);
+    margin: 10px;
+    width: 100%
+}
+
+.dashboard__product-heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border-bottom: 2px solid #FFD43B;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    color: black;
+
+}
+
+.table-border {
+    border: 1px solid #dee2e6;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table-border thead th,
+.table-border thead td {
+    border-bottom-width: 2px;
+}
+
+.dashboard__product-table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.dashboard__product-table th,
+.dashboard__product-table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.show {}

@@ -1,0 +1,33 @@
+.cm_msg {
+    margin: 0.5rem;
+}
+
+.cm_msg_ctn {
+    /* background-color: #f7f7f7; */
+    font-family: inherit;
+}
+
+.txt__msg {
+    background-color: #fff;
+    padding: 0.5vh;
+    border-radius: 0.5rem;
+}
+.txt{
+    background-color: #f7f7f7;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 1rem;
+    color: black;
+}
+.txt_send{
+    background-color: #0d6efd;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 1rem;
+    color: #fff;
+}
+.txt__msg_send{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}

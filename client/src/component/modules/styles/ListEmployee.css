@@ -1,0 +1,163 @@
+:root {
+    --wrap-employee-height: 80px;
+}
+.listemployee-wrap {
+    padding: 30px;
+}
+.employeeinfor-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: var(--wrap-employee-height);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(193, 189, 189);
+}
+.employeeinfor-wrap:hover {
+    background-color: #F7F8FF;
+    cursor: pointer;
+}
+.employeeinfor-col1 {
+    width: 10%;
+}
+.employeeinfor-col2 {
+    width: 30%;
+}
+.employeeinfor-col3 {
+    width: 25%;
+}
+.employeeinfor-col4 {
+    width: 15%;
+}
+.employeeinfor-col5 {
+    width: 15%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.employeeinfor-col6 {
+    width: 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.employeeinfor-name {
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.employeeinfor-state {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.employeeinfor-state-icon {
+    background-color:rgba(90.00000223517418, 212.00000256299973, 57.00000040233135, 1);
+    width:18px;
+    height:18px;
+    border-radius: 100%;
+    border:3px solid rgba(255, 255, 255, 1);
+}
+.employeeinfor-state-icon-1 {
+    background-color: #F12B2C;
+    width:18px;
+    height:18px;
+    border-radius: 100%;
+    border:3px solid rgba(255, 255, 255, 1);
+}
+.employeeinfor-date {
+	width:140px;
+	height:20px;
+	text-align:left;
+	font-size:14px;
+    font-weight: 500;
+    padding-bottom: 26px;
+	letter-spacing:0.20000000298023224;
+}
+.employeeinfor-time {
+    color:rgba(197.0000034570694, 199.0000033378601, 205.00000298023224, 1);
+	width:140px;
+	height:16px;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0.10000000149011612;
+}
+.employeeinfor-img {
+    text-align: center;
+}
+/* Ảnh nhân viên css theo reponsive */
+.employee-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+/* Back Officier */
+.employeeinfor-jobtype {
+    border-radius: 100px;
+    background-color: #29CC97;
+    color: white;
+    padding: 4px 20px 4px 20px;
+}
+/* Collector */
+.employeeinfor-jobtype-1 {
+    border-radius: 100px;
+    background-color: #d8371e;
+    color: white;
+    padding: 4px 20px 4px 20px;
+}
+/* Janitor */
+.employeeinfor-jobtype-2 {
+    border-radius: 100px;
+    background-color: #FEC400;
+    color: white;
+    padding: 4px 20px 4px 20px;
+}
+.listemployee-header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.listemployee-header-1 {
+    width: 70%;
+    font-size: 28px;
+    font-weight: 600;
+}
+.listemployee-header-2 {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.listemployee-header-sort {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.listemployee-header-filter {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.listemployee-title {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.listemployee-filter, .listemployee-sort {
+    padding-right: 10px;
+}
+.employee-state {
+    padding-left: 5px;
+}
+.employeeicon-3dot {
+    color: #C5C7CD;
+}
+.employeeicon-3dot:hover {
+    color: #000000;
+}
